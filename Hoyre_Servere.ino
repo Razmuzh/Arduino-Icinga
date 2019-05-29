@@ -5,9 +5,9 @@
 #include <PubSubClientTools.h>
 
 
-#define WIFI_SSID "Dew-Ops"
-#define WIFI_PASSWORD "BingoPelleRulerBrakka"
-#define MQTT_SERVER "192.168.4.1"
+#define WIFI_SSID "XXX"
+#define WIFI_PASSWORD "XXX"
+#define MQTT_SERVER "XXX"
 
 WiFiClient espClient;
 PubSubClient client(MQTT_SERVER, 1883, espClient);
